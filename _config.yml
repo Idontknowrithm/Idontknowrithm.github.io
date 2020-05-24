@@ -1,0 +1,41 @@
+title: Blog of Idontknowrithm
+author: Idontknowrithm
+email: sustkadl12@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+ Idontknowrithm의 개발 블로그입니다.
+show_excerpts: true # set to true to show excerpts on the homepage
+remote_theme: thelehhman/texture
+baseurl:
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Idontknowrithm's blog
+  tagline: Future Developer
+  date_format: "%b %-d, %Y"
+  style: blue
+  showNav: false
+  showPicker: true
+
+  # generate social links in footer
+  social_links:
+    github:  idontknowrithm
+    linkedIn: in/yuhyun-kim-06474a1a0
+    rss: rss
+ 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+# theme: texture
+
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
