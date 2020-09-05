@@ -6,7 +6,7 @@ header:
 
 services:
     title: "I'm interested in..."
-    text: "Lorem ipsum"
+    # text: "Lorem ipsum"
     section: services
     list:
       - title: "Algorithm"
@@ -15,6 +15,9 @@ services:
       - title: "Development"
         desc: "현업에서 중요한 것은 완성된 결과물이라 생각해서 앱, 또는 웹 개발에 관심이 있습니다."
         icon: fas fa-laptop
+      - title: "Next step"
+        desc: "저의 다음 행보는 어떻게 될까요? 그건 아무도 모르겠지만, 제가 발전하는 방향일 것은 확실합니다."
+        icon: fas fa-question
         
 portfolio:
     title: "Archive"
